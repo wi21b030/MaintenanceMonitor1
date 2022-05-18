@@ -10,4 +10,9 @@ public class TestController {
     public String hello(){
         return "Funktioniert";
     }
+    
+    @RequestMapping("/Mo")
+    public String mo(){
+        return "Mo hat sein Passwort vergessen!";
+    }
 }
